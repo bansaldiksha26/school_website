@@ -1,4 +1,94 @@
-#align{
+body{
+    margin:"0px";
+    padding:"0px";
+    background-color: cornsilk;
+}
+.mid h1,h2{
     text-align: center;
-    size: 34;
+    font: size 100px;
+    color:blue;
+}
+.left{
+    display:inline-block;
+    border: 2px;
+    position: absolute;
+    top:20px;
+    left:34px;
+    
+}
+.left img{
+    margin-left: 180px;
+    width: 150px;
+    height: 140px;
+}
+
+.mid{
+    display:block;
+    margin: 12px auto;
+    width:33%;
+    border:2px;
+}
+.right{
+    width: 33%;
+    position: absolute;
+    right:34px;
+    top:20px;
+}
+.right p{
+    margin-left: 200px;
+    color:blue;
+    font-size:100%;
+}
+.navbar{
+    background-color: coral;
+    display: inline-block;
+    height: 50px;
+}
+.navbar li{
+    display: inline;
+    size: 80cm;
+    padding: 122px;
+    top:50px;
+    margin-left: 15px;
+}
+.navbar li a{
+    color:springgreen;
+    font-size: 20px;
+}
+.img{
+    margin-left: 29px;
+    top:100px;
+}
+h1{
+    margin-left: 30px;
+    color:crimson;
+    text-decoration: underline;
+}
+p{
+    margin-left: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.le{
+    display:inline-block;
+    border: 2px;
+    position: absolute;
+    top:900px;
+    left:20px;
+}
+.le p{
+    margin-right: 600px;
+}
+.re{
+    width: 33%;
+    position: absolute;
+    right:34px;
+    top:900px;
+}
+.header{
+    background-color: lightcoral;
+}
+.footer{
+    background-color: lightcoral;
+    display: block;
+    
 }
